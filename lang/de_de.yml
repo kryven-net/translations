@@ -1,0 +1,1251 @@
+# ============================================================
+# KRYVEN.net -- Uebersetzung: de_de
+# Alle Keys aus allen 4 Server-Modulen, als "modul.key" praefixiert.
+# Kommentar = deutscher Referenztext (Orientierung), Wert dahinter bitte ausfuellen/pruefen.
+# %PLATZHALTER% (z.B. %PLAYER%) und Minecraft-Farbcodes (%a7, %a7c, ...) bitte erhalten.
+# ============================================================
+
+
+# ---- proxy-plugin: Velocity-Proxy (MOTD, Party, Mod-Block, Tab-Liste, Bans, Freunde, Clans) ----
+
+proxy-plugin.noPermission: "&cDu hast keine Berechtigung für diesen Befehl."
+
+proxy-plugin.serverUsage: "&cBenutzung: /server <server>-<nummer>"
+
+proxy-plugin.serverSwitching: "&7Wechsle zu &b%SERVER%&7 ..."
+
+proxy-plugin.serverNotFound: "&cServer nicht gefunden: %SERVER%"
+
+proxy-plugin.sendUsage: "&cBenutzung: /send <spieler> <server>-<nummer>"
+
+proxy-plugin.sendPlayerNotFound: "&cSpieler nicht gefunden oder offline: %PLAYER%"
+
+proxy-plugin.sendServerNotFound: "&cServer nicht gefunden: %SERVER%"
+
+proxy-plugin.sendSuccess: "&a%PLAYER% wurde zu &b%SERVER%&a gesendet."
+
+proxy-plugin.sendReceived: "&7Du wurdest von &b%SENDER%&7 zu &b%SERVER%&7 gesendet."
+
+proxy-plugin.playersHeader: "&8&m-----------------------------------------------------\n&e&lOnline-Spieler &7(%COUNT%)&8:"
+
+proxy-plugin.playersEntry: "&8» &b%PLAYER%"
+
+proxy-plugin.playersClickHint: "&7Klicke für Infos zu &b%PLAYER%"
+
+proxy-plugin.playersNone: "&7Aktuell ist niemand online."
+
+proxy-plugin.playersAllHeader: "&8&m-----------------------------------------------------\n&e&lAlle jemals gejointen Spieler &7(%COUNT%)&8:"
+
+proxy-plugin.profileStatusClean: "&a✔ CLEAN"
+
+proxy-plugin.profileStatusPunished: "&c✘ BESTRAFT"
+
+proxy-plugin.profileCurrentServer: "&7Aktueller Server: &a%SERVER%"
+
+proxy-plugin.profileLastSkinChange: "&7Letzter Skin-Change: &c%VALUE%"
+
+proxy-plugin.profilePreviousNames: "&7Vorherige Namen: &c%VALUE%"
+
+proxy-plugin.profileUnknown: "Unbekannt"
+
+proxy-plugin.profileNone: "Keine"
+
+proxy-plugin.btnPunishments: "&6[Bestrafungen]"
+
+proxy-plugin.btnRecentChats: "&6[Letzte Chats]"
+
+proxy-plugin.btnStats: "&b[Stats]"
+
+proxy-plugin.btnFriends: "&d[Freunde]"
+
+proxy-plugin.btnGeneralInfo: "&7[Generelle Infos]"
+
+proxy-plugin.btnNameMC: "&d[NameMC]"
+
+proxy-plugin.hoverFeatureSoon: "&7Dieses Feature ist noch in Entwicklung."
+
+proxy-plugin.hoverPunishments: "&7Zeigt die Bestrafungshistorie (/punishlog)."
+
+proxy-plugin.hoverNameMC: "&7Öffnet das NameMC-Profil in deinem Browser."
+
+proxy-plugin.featureInDevelopment: "&7Feature in Entwicklung."
+
+proxy-plugin.playerInfoNotFound: "&cSpieler nicht gefunden: %PLAYER%"
+
+proxy-plugin.joinLogEnabled: "&aJoin-Log aktiviert &7- du siehst jetzt Netzwerk-Joins im Chat."
+
+proxy-plugin.joinLogDisabled: "&cJoin-Log deaktiviert."
+
+proxy-plugin.groupTravelUnavailable: "&cGerade keine %GROUP%-Instanz online - versuch's gleich noch einmal."
+
+proxy-plugin.blockUsage: "&cVerwendung: /block <Spieler>"
+
+proxy-plugin.unblockUsage: "&cVerwendung: /unblock <Spieler>"
+
+proxy-plugin.blockCannotSelf: "&cDu kannst dich nicht selbst blockieren."
+
+proxy-plugin.blockDone: "&a%PLAYER% wurde blockiert."
+
+proxy-plugin.unblockDone: "&a%PLAYER% wurde entblockt."
+
+proxy-plugin.vipColorUsage: "&cVerwendung: /vipcolor #RRGGBB [#RRGGBB] [#RRGGBB]"
+
+proxy-plugin.vipColorSet: "&aDein Tab-Farbverlauf wurde gespeichert."
+
+proxy-plugin.partyUsage: "&cVerwendung: /party <invite|accept|decline|leave|kick|list|disband|warp|chat>"
+
+proxy-plugin.partyInviteSelf: "&cDu kannst dich nicht selbst einladen."
+
+proxy-plugin.partyNotLeader: "&cNur der Party-Anführer darf das."
+
+proxy-plugin.partyTargetInOwnParty: "&c%PLAYER% ist schon in deiner Party."
+
+proxy-plugin.partyTargetInOtherParty: "&c%PLAYER% ist schon in einer anderen Party."
+
+proxy-plugin.partyAlreadyPending: "&c%PLAYER% hat schon eine offene Einladung."
+
+proxy-plugin.partyInvitesDisabled: "&c%PLAYER% erlaubt gerade keine Party-Einladungen."
+
+proxy-plugin.partyFull: "&cDiese Party ist voll (max. 20)."
+
+proxy-plugin.partyAlreadyHaveParty: "&cDu bist schon in einer Party."
+
+proxy-plugin.clanUsage: "&cVerwendung: /clan <create|invite|accept|decline|leave|kick|disband|info|members> ..."
+
+proxy-plugin.clanCreateUsage: "&cVerwendung: /clan create <Name>"
+
+proxy-plugin.clanAlreadyInClan: "&cDu bist schon in einem Clan."
+
+proxy-plugin.clanInvalidName: "&cUngültiger Name (3-32 Zeichen, nur Buchstaben/Zahlen/_)."
+
+proxy-plugin.clanNameTaken: "&cDieser Clan-Name ist schon vergeben."
+
+proxy-plugin.clanCreated: "&aClan &f%CLAN%&a gegründet!"
+
+proxy-plugin.clanNotInClan: "&cDu bist gerade in keinem Clan."
+
+proxy-plugin.clanNoClan: "&cDu bist in keinem Clan - kannst also niemanden einladen."
+
+proxy-plugin.clanNotLeaderOrOfficer: "&cNur Anführer/Offiziere dürfen das."
+
+proxy-plugin.clanInviteSelf: "&cDu kannst dich nicht selbst einladen."
+
+proxy-plugin.clanTargetHasClan: "&c%PLAYER% ist schon in einem Clan."
+
+proxy-plugin.clanAlreadyPending: "&c%PLAYER% hat schon eine offene Einladung."
+
+proxy-plugin.clanInviteSent: "&aEinladung an %PLAYER% verschickt."
+
+proxy-plugin.clanInviteReceived: "&d%PLAYER% lädt dich in den Clan &f%CLAN%&d ein!"
+
+proxy-plugin.clanAcceptButton: "&a[Annehmen]"
+
+proxy-plugin.clanDeclineButton: "&c[Ablehnen]"
+
+proxy-plugin.clanNoInvite: "&cDu hast gerade keine offene Clan-Einladung."
+
+proxy-plugin.clanJoined: "&aDu bist dem Clan &f%CLAN%&a beigetreten."
+
+proxy-plugin.clanMemberJoinedNotify: "&a%PLAYER% ist dem Clan beigetreten."
+
+proxy-plugin.clanDeclinedSelf: "&cEinladung abgelehnt."
+
+proxy-plugin.clanDeclinedNotify: "&c%PLAYER% hat deine Clan-Einladung abgelehnt."
+
+proxy-plugin.clanLeaderMustDisband: "&cAls Anführer kannst du den Clan nicht verlassen - nutze /clan disband oder übergib die Führung zuerst."
+
+proxy-plugin.clanLeftSelf: "&cClan verlassen."
+
+proxy-plugin.clanMemberLeftNotify: "&c%PLAYER% hat den Clan verlassen."
+
+proxy-plugin.clanKickUsage: "&cVerwendung: /clan kick <Spieler>"
+
+proxy-plugin.clanTargetNotInClan: "&c%PLAYER% ist nicht in deinem Clan."
+
+proxy-plugin.clanCannotKickLeader: "&cDer Anführer kann nicht gekickt werden."
+
+proxy-plugin.clanKickDone: "&a%PLAYER% aus dem Clan geworfen."
+
+proxy-plugin.clanKickedNotify: "&cDu wurdest von %PLAYER% aus dem Clan geworfen."
+
+proxy-plugin.clanOnlyLeader: "&cNur der Anführer darf das."
+
+proxy-plugin.clanPromoteUsage: "&cVerwendung: /clan promote <Spieler>"
+
+proxy-plugin.clanDemoteUsage: "&cVerwendung: /clan demote <Spieler>"
+
+proxy-plugin.clanAlreadyOfficerOrHigher: "&c%PLAYER% ist schon Offizier oder Anführer."
+
+proxy-plugin.clanNotAnOfficer: "&c%PLAYER% ist kein Offizier."
+
+proxy-plugin.clanPromoteDone: "&a%PLAYER% zum Offizier befördert."
+
+proxy-plugin.clanPromotedNotify: "&aDu wurdest zum Clan-Offizier befördert!"
+
+proxy-plugin.clanDemoteDone: "&a%PLAYER% zum Mitglied degradiert."
+
+proxy-plugin.clanDemotedNotify: "&cDu wurdest zum Clan-Mitglied degradiert."
+
+proxy-plugin.clanDisbandedNotify: "&cDer Clan wurde aufgelöst."
+
+proxy-plugin.clanTreasuryDepositUnavailable: "&cNoch nicht verfügbar - es gibt noch kein Spieler-Wirtschaftssystem."
+
+proxy-plugin.clanTreasuryBalance: "&6💰 Clan-Kasse: &f%COINS% Coins"
+
+proxy-plugin.clanTreasuryTxPositive: "&a+%AMOUNT% &7%REASON%"
+
+proxy-plugin.clanTreasuryTxNegative: "&c-%AMOUNT% &7%REASON%"
+
+proxy-plugin.clanWarUsage: "&cVerwendung: /clan war declare <Clan>"
+
+proxy-plugin.clanWarTargetNotFound: "&cUnbekannter Clan: %CLAN%"
+
+proxy-plugin.clanWarTargetIsOwnClan: "&cDu kannst nicht deinem eigenen Clan den Krieg erklären."
+
+proxy-plugin.clanWarNotEnoughCoins: "&cBenötigt mindestens %N% Treasury-Coins."
+
+proxy-plugin.clanWarNotEnoughOwnMembers: "&cDein Clan braucht mindestens %N% Mitglieder."
+
+proxy-plugin.clanWarNotEnoughTargetMembers: "&cDer Ziel-Clan braucht mindestens %N% Mitglieder."
+
+proxy-plugin.clanWarDeclaredBroadcast: "&d&l[Clan-Krieg] &r%CLAN% &7hat &r%TARGET% &7den Krieg erklärt!"
+
+proxy-plugin.clanInfoHeader: "&d&lClan %CLAN% &7(%COUNT% Mitglieder)"
+
+proxy-plugin.clanInfoLeader: "&7Anführer: &f%PLAYER%"
+
+proxy-plugin.clanMembersEntryLeader: "&6⭐ %PLAYER% &7(Anführer)"
+
+proxy-plugin.clanMembersEntryOfficer: "&f%PLAYER% &7(Offizier)"
+
+proxy-plugin.clanMembersEntry: "&7%PLAYER%"
+
+proxy-plugin.partyCreated: "&aParty erstellt! /party um sie zu verwalten."
+
+proxy-plugin.partyCreatedWithPassword: "&aParty mit Passwort erstellt! /party um sie zu verwalten."
+
+proxy-plugin.partyJoinUsage: "&cVerwendung: /party join <Anführer> [Passwort]"
+
+proxy-plugin.partyLeaderHasNoParty: "&c%PLAYER% hat gerade keine Party."
+
+proxy-plugin.partyWrongPassword: "&cFalsches Passwort."
+
+proxy-plugin.partyChatEnabled: "&aParty-Chat aktiviert."
+
+proxy-plugin.partyChatDisabled: "&cParty-Chat deaktiviert."
+
+proxy-plugin.partyChatIsDisabled: "&cParty-Chat ist gerade deaktiviert (/party togglechat)."
+
+proxy-plugin.partyPasswordSet: "&aPasswort gesetzt."
+
+proxy-plugin.partyPasswordCleared: "&aPasswort entfernt."
+
+proxy-plugin.partyInviteSent: "&aEinladung an %PLAYER% verschickt."
+
+proxy-plugin.partyInviteReceived: "&d%PLAYER% lädt dich in seine/ihre Party ein!"
+
+proxy-plugin.partyAcceptButton: "&a[Annehmen]"
+
+proxy-plugin.partyDeclineButton: "&c[Ablehnen]"
+
+proxy-plugin.partyJoined: "&aDu bist der Party beigetreten."
+
+proxy-plugin.partyMemberJoinedNotify: "&a%PLAYER% ist der Party beigetreten."
+
+proxy-plugin.partyNoInvite: "&cDu hast gerade keine offene Party-Einladung."
+
+proxy-plugin.partyDeclinedSelf: "&cEinladung abgelehnt."
+
+proxy-plugin.partyDeclinedNotify: "&c%PLAYER% hat deine Party-Einladung abgelehnt."
+
+proxy-plugin.partyNotInParty: "&cDu bist gerade in keiner Party."
+
+proxy-plugin.partyDisbandedSelf: "&cDeine Party wurde aufgelöst (letztes Mitglied)."
+
+proxy-plugin.partyLeftSelf: "&cPartei verlassen."
+
+proxy-plugin.partyMemberLeftNotify: "&c%PLAYER% hat die Party verlassen."
+
+proxy-plugin.partyYouAreNewLeader: "&dDu bist jetzt der neue Party-Anführer."
+
+proxy-plugin.partyKickFailed: "&cKonnte %PLAYER% nicht aus der Party werfen."
+
+proxy-plugin.partyKickDone: "&a%PLAYER% wurde aus der Party geworfen."
+
+proxy-plugin.partyKickedNotify: "&cDu wurdest von %PLAYER% aus der Party geworfen."
+
+proxy-plugin.testWhitelistKick: "&cDieser Test-Proxy ist nur fuer das Team.\n&7Du bist nicht auf der Test-Whitelist."
+
+proxy-plugin.partyClosed: "&cDiese Party ist geschlossen - du brauchst eine Einladung."
+
+proxy-plugin.partyBannedFromParty: "&cDu wurdest aus dieser Party gebannt."
+
+proxy-plugin.partyOpened: "&aParty ist jetzt offen - jeder kann beitreten."
+
+proxy-plugin.partyClosedByLeader: "&eParty ist jetzt geschlossen - nur noch per Einladung."
+
+proxy-plugin.partyBanDone: "&a%PLAYER% wurde aus der Party gebannt."
+
+proxy-plugin.partyBannedNotify: "&cDu wurdest von %PLAYER% aus der Party gebannt."
+
+proxy-plugin.partyListHeader: "&d&lDeine Party (%COUNT%):"
+
+proxy-plugin.partyListEntryLeader: "&d★ %PLAYER% &7(Anführer) - %SERVER%"
+
+proxy-plugin.partyListEntry: "&f%PLAYER% &7- %SERVER%"
+
+proxy-plugin.partyDisbandedNotify: "&cDie Party wurde vom Anführer aufgelöst."
+
+proxy-plugin.partyWarpDone: "&a%COUNT% Mitglieder zu dir geholt."
+
+proxy-plugin.partyChatUsage: "&cVerwendung: /party chat <Nachricht>"
+
+proxy-plugin.partyChatFormat: "&8[&dParty&8] &7%PLAYER%: &f%MESSAGE%"
+
+proxy-plugin.banKickMessage: "&c&lDu wurdest gesperrt\n&7Grund: &f%REASON%"
+
+proxy-plugin.vpnKickMessage: "&c&lVPN/Proxy erkannt\n&7Bitte verbinde dich ohne VPN erneut."
+
+proxy-plugin.chatMuted: "&cDu bist stummgeschaltet und kannst nicht schreiben."
+
+proxy-plugin.punishUsage: "&cBenutzung: /%CMD% <spieler> [minuten] <grund>"
+
+proxy-plugin.punishTargetNotFound: "&cSpieler nicht gefunden: %PLAYER%"
+
+proxy-plugin.banSuccess: "&a%PLAYER% wurde gesperrt. &7Grund: %REASON%"
+
+proxy-plugin.banSuccessAlts: "&7Zusätzlich mitgesperrt (gleiche IP): &c%ALTS%"
+
+proxy-plugin.unbanSuccess: "&a%PLAYER% wurde entsperrt."
+
+proxy-plugin.muteSuccess: "&a%PLAYER% wurde stummgeschaltet. &7Grund: %REASON%"
+
+proxy-plugin.unmuteSuccess: "&a%PLAYER% wurde entstummt."
+
+proxy-plugin.voiceMuteSuccess: "&a%PLAYER% wurde im Sprachchat stummgeschaltet."
+
+proxy-plugin.voiceUnmuteSuccess: "&a%PLAYER% wurde im Sprachchat entstummt."
+
+proxy-plugin.warnSuccess: "&a%PLAYER% wurde verwarnt. &7Grund: %REASON%"
+
+proxy-plugin.punishLogHeader: "&8&m-----------------------------------------------------\n&e&lBestrafungshistorie: &f%PLAYER%"
+
+proxy-plugin.punishLogNone: "&7Keine Einträge gefunden."
+
+proxy-plugin.featureTextPunishments: "&6&lBestrafungen &7(Feature in Entwicklung)\n&7Hier wird später die vollständige Historie aller Verwarnungen, Mutes, Kicks und Bans dieses Spielers angezeigt - inklusive Grund, Moderator, Zeitpunkt und Dauer, damit Staff auf einen Blick sieht, wie oft und wie schwer jemand bereits aufgefallen ist."
+
+proxy-plugin.featureTextRecentChats: "&6&lLetzte Chats &7(Feature in Entwicklung)\n&7Hier werden später die letzten Chat-Nachrichten dieses Spielers über alle Server hinweg angezeigt, um bei Meldungen schnell den Kontext prüfen zu können."
+
+proxy-plugin.featureTextStats: "&b&lStats &7(Feature in Entwicklung)\n&7Hier werden später Spielzeit, Siege, Level und weitere Statistiken dieses Spielers angezeigt."
+
+proxy-plugin.featureTextFriends: "&d&lFreunde &7(Feature in Entwicklung)\n&7Hier wird später die Freundesliste dieses Spielers angezeigt."
+
+proxy-plugin.featureTextGeneralInfo: "&7&lGenerelle Infos &7(Feature in Entwicklung)\n&7Hier werden später zusätzliche allgemeine Informationen zu diesem Spieler angezeigt, z. B. Rang, Beitrittsdatum und verknüpfte Accounts."
+
+proxy-plugin.queueTitle: "&bDu bist in der Query"
+
+proxy-plugin.queueSubtitle: "&7Query Platz &f%POSITION%"
+
+proxy-plugin.queuePriorityTitle: "&aDu bist in der bevorzugten Query"
+
+proxy-plugin.queueJoined: "&7Der Server ist voll - du wurdest in die Query eingereiht."
+
+proxy-plugin.hoverFriends: "&7Fügt %PLAYER% als Freund hinzu."
+
+proxy-plugin.friendUsage: "&cBenutzung: /friend <add|accept|deny|remove|list|requests> [Spieler]"
+
+proxy-plugin.friendAddSelf: "&cDu kannst dich nicht selbst als Freund hinzufügen."
+
+proxy-plugin.friendAlreadyFriends: "&7Ihr seid bereits befreundet."
+
+proxy-plugin.friendRequestSent: "&aFreundschaftsanfrage an %PLAYER% gesendet."
+
+proxy-plugin.friendRequestReceived: "&7%PLAYER% möchte mit dir befreundet sein. &a/friend accept %PLAYER%"
+
+proxy-plugin.friendRequestAlreadyPending: "&7Du hast %PLAYER% bereits eine Anfrage geschickt."
+
+proxy-plugin.friendRequestsDisabled: "&c%PLAYER% erlaubt aktuell keine Freundschaftsanfragen."
+
+proxy-plugin.friendAutoAccepted: "&a%PLAYER% hat dir bereits eine Anfrage geschickt - ihr seid jetzt Freunde!"
+
+proxy-plugin.friendNoRequestFrom: "&cKeine offene Anfrage von %PLAYER%."
+
+proxy-plugin.friendAccepted: "&aDu bist jetzt mit %PLAYER% befreundet."
+
+proxy-plugin.friendAcceptedNotify: "&a%PLAYER% hat deine Freundschaftsanfrage angenommen."
+
+proxy-plugin.friendDenied: "&7Anfrage von %PLAYER% abgelehnt."
+
+proxy-plugin.friendNotFriends: "&cDu bist mit %PLAYER% nicht befreundet."
+
+proxy-plugin.friendRemoved: "&7%PLAYER% wurde aus deiner Freundesliste entfernt."
+
+proxy-plugin.friendRemovedNotify: "&7%PLAYER% hat die Freundschaft beendet."
+
+proxy-plugin.friendListHeader: "&8&m-----------------------------------------------------\n&d&lFreunde &7(%COUNT%)&8:"
+
+proxy-plugin.friendListEntryOnline: "&8» &a%PLAYER% &7- online auf &b%SERVER%"
+
+proxy-plugin.friendListEntryOffline: "&8» &7%PLAYER% &8- offline"
+
+proxy-plugin.friendListNone: "&7Du hast noch keine Freunde. &7Nutze &f/friend add <Spieler>"
+
+proxy-plugin.friendRequestsHeader: "&8&m-----------------------------------------------------\n&d&lOffene Anfragen &7(%COUNT%)&8:"
+
+proxy-plugin.friendRequestsEntry: "&8» &b%PLAYER% &7- &a/friend accept %PLAYER%"
+
+proxy-plugin.friendRequestsNone: "&7Keine offenen Anfragen."
+
+proxy-plugin.friendPlayerNotFound: "&cSpieler nicht gefunden: %PLAYER%"
+
+proxy-plugin.friendJoinNotify: "&7Dein Freund &a%PLAYER%&7 ist online gegangen."
+
+proxy-plugin.friendLeaveNotify: "&7Dein Freund &7%PLAYER%&7 ist offline gegangen."
+
+
+# ---- lobby-server: Lobby (Navigator, Party-GUI, Profil, Einstellungen, Onboarding) ----
+
+lobby-server.welcome: "Willkommen auf der KRYVEX.net Lobby!"
+
+lobby-server.tabHeader: "§d§lKRYVEX.net §7— §dLobby"
+
+lobby-server.tabFooter: "§bkryven.net  ·  §ddiscord.kryven.net"
+
+lobby-server.scoreboardTitle: "§d§lKRYVEX.net"
+
+lobby-server.scoreboardOnline: "§7Online: §f%COUNT%"
+
+lobby-server.scoreboardWebsite: "§bkryven.net"
+
+lobby-server.navigatorTitle: "Navigator"
+
+lobby-server.navigatorDuels: "Duelle"
+
+lobby-server.navigatorClassicGames: "Classic Games"
+
+lobby-server.navigatorRealms: "Realms"
+
+lobby-server.comingSoon: "Bald verfügbar"
+
+lobby-server.hotbarNavigator: "Navigator"
+
+lobby-server.hotbarParty: "Party"
+
+lobby-server.hotbarPartyLeader: "Party (Anführer)"
+
+lobby-server.hotbarProfile: "Profil & Kosmetik"
+
+lobby-server.hotbarClassicGames: "Classic Games"
+
+lobby-server.hotbarDuelQueue: "Duell-Suche"
+
+lobby-server.hotbarTeamDuel: "Team-Duelle"
+
+lobby-server.hotbarDuelSword: "Duell-Schwert"
+
+lobby-server.hotbarMyKits: "Meine Kits"
+
+lobby-server.hotbarLeaveQueue: "Warteschlange verlassen"
+
+lobby-server.partyCreated: "Party erstellt! Lade Freunde mit /party invite <Spieler> ein."
+
+lobby-server.partyManageHint: "Verwalte deine Party mit /party invite|kick|leave <Spieler>."
+
+lobby-server.profileSoon: "Profil & Kosmetik — bald verfügbar."
+
+lobby-server.gamesSoon: "Classic Games — bald verfügbar."
+
+lobby-server.teamDuelSoon: "Team-Duelle — bald verfügbar."
+
+lobby-server.duelHint: "Nutze /duel <Spieler> oder schlage einen Spieler zum Herausfordern — bald verfügbar."
+
+lobby-server.kitSoon: "Kit-Verwaltung — bald verfügbar."
+
+lobby-server.partyOnlyLeaderInvite: "Nur der Party-Anführer kann Spieler einladen."
+
+lobby-server.partyAlreadyInParty: "%PLAYER% ist bereits in einer Party."
+
+lobby-server.partyInvitesDisabled: "%PLAYER% erlaubt aktuell keine Party-Einladungen von dir."
+
+lobby-server.partyInvited: "%PLAYER% wurde zur Party eingeladen."
+
+lobby-server.partyInviteReceived: "%PLAYER% hat dich zu seiner/ihrer Party eingeladen. Tippe /party accept zum Beitreten."
+
+lobby-server.partyNoPendingInvite: "Du hast keine offene Party-Einladung."
+
+lobby-server.partyJoined: "Du bist der Party beigetreten!"
+
+lobby-server.partyNotInParty: "Du bist in keiner Party."
+
+lobby-server.partyLeft: "Du hast die Party verlassen."
+
+lobby-server.partyOnlyLeaderKick: "Nur der Party-Anführer kann Spieler entfernen."
+
+lobby-server.partyNotKickable: "%PLAYER% ist kein entfernbares Party-Mitglied."
+
+lobby-server.partyKicked: "Du wurdest aus der Party entfernt."
+
+lobby-server.partyKickedOther: "%PLAYER% wurde aus der Party entfernt."
+
+lobby-server.partyUsage: "Benutzung: /party <create|invite|accept|leave|kick> [Spieler]"
+
+lobby-server.partyActionNeedsPlayer: "Diese Aktion braucht einen Spieler: /party %SUB% <Spieler>"
+
+lobby-server.partyPlayerNotFound: "Spieler nicht gefunden: %PLAYER%"
+
+lobby-server.partyUnknownAction: "Unbekannte Party-Aktion: %SUB%"
+
+lobby-server.duelQueueJoined: "Du bist der Duell-Suche beigetreten. Suche nach einem Gegner..."
+
+lobby-server.duelQueueLeft: "Du hast die Duell-Suche verlassen."
+
+lobby-server.chatCardRank: "Rang"
+
+lobby-server.chatCardPing: "Ping"
+
+lobby-server.chatCardServer: "Server"
+
+lobby-server.chatCardNoRank: "Spieler"
+
+lobby-server.chatCardOffline: "Offline"
+
+lobby-server.onboardWelcomeTitle: "Willkommen bei KRYVEN.net"
+
+lobby-server.onboardWelcomeBody: "Stell kurz ein paar Grundeinstellungen ein - du kannst das jederzeit mit /settings ändern."
+
+lobby-server.onboardSwitchGui: "GUI-Stil wechseln (aktuell: %MODE%)"
+
+lobby-server.onboardGuiDialog: "Dialog"
+
+lobby-server.onboardGuiChest: "Truhen-GUI"
+
+lobby-server.onboardGuiCustom: "Custom (Vorschau)"
+
+lobby-server.onboardCountryButton: "Land: %COUNTRY%"
+
+lobby-server.onboardCountryAutomatic: "Automatisch"
+
+lobby-server.onboardFinish: "Fertig"
+
+lobby-server.onboardClose: "Später"
+
+lobby-server.onboardCountryTitle: "Land auswählen"
+
+lobby-server.onboardCountryBody: "Suche dein Land oder wähle \"Automatisch\" (per IP erkannt)."
+
+lobby-server.onboardSearchLabel: "Suche"
+
+lobby-server.onboardSearchButton: "Suchen"
+
+lobby-server.onboardCountryOptionsLabel: "Ergebnisse"
+
+lobby-server.onboardSelectButton: "Auswählen"
+
+lobby-server.onboardClickToSelect: "Klicken zum Auswählen"
+
+lobby-server.onboardBackButton: "Zurück"
+
+lobby-server.onboardFinishedActionbar: "Einstellungen gespeichert - änderbar jederzeit mit /settings"
+
+lobby-server.onboardRejoinKick: "Deine Einstellungen wurden gespeichert.\nBitte verbinde dich neu, um das komplette Resourcepack (Custom-GUI) zu laden."
+
+lobby-server.onboardClickToChange: "Klicken zum Ändern"
+
+lobby-server.onboardPrevPage: "« Vorherige Seite"
+
+lobby-server.onboardNextPage: "Nächste Seite »"
+
+lobby-server.onboardSearchChatPrompt: "Schreib deinen Suchtext in den Chat:"
+
+lobby-server.settingsTitle: "KRYVEN.net Einstellungen"
+
+lobby-server.settingsStatus: "Status:"
+
+lobby-server.settingsChange: "Ändern"
+
+lobby-server.settingsBack: "Zurück"
+
+lobby-server.settingsSocial: "Sociales"
+
+lobby-server.settingsPrivacy: "Privatsphäre"
+
+lobby-server.settingsNametag: "Namensschilder"
+
+lobby-server.settingsGameplay: "Spielweise"
+
+lobby-server.settingsDuel: "Kämpfe"
+
+lobby-server.settingsScoreboard: "Anzeigetafel"
+
+lobby-server.settingsCategorySoon: "Diese Kategorie ist noch in Entwicklung."
+
+lobby-server.settingsStatusTitle: "Online-Status"
+
+lobby-server.settingsStatusCycleHint: "Klicken zum Status wechseln"
+
+lobby-server.settingsStatusOnline: "Online"
+
+lobby-server.settingsStatusDnd: "Bitte nicht stören"
+
+lobby-server.settingsStatusOffline: "Offline"
+
+lobby-server.settingsStatusHint: "Offline: du fehlst anderen in der Tab-Liste - außer sie stehen gerade in deiner Nähe (~40 Blöcke)."
+
+lobby-server.socialTitle: "Social-Einstellungen"
+
+lobby-server.socialFriendRequests: "Freundschaftsanfragen von:"
+
+lobby-server.socialPartyInvites: "Party-Einladungen von:"
+
+lobby-server.socialEveryone: "Allen"
+
+lobby-server.socialFriendsOnly: "Nur Freunden"
+
+lobby-server.socialNobody: "Niemandem"
+
+lobby-server.privacyTitle: "Privacy-Einstellungen"
+
+lobby-server.nametagTitle: "Nametag-Einstellungen"
+
+lobby-server.nametagShowRank: "Rang in Tab/Scoreboard zeigen"
+
+lobby-server.nametagShowFlag: "Länder-Flagge in Tab/Scoreboard zeigen"
+
+lobby-server.gameplayTitle: "Gameplay-Einstellungen"
+
+lobby-server.gameplayDoubleJump: "Doppelsprung"
+
+lobby-server.settingsUiSounds: "UI-Klick-Sounds"
+
+lobby-server.scoreboardMenuTitle: "Scoreboard-Einstellungen"
+
+lobby-server.scoreboardMenuEnabled: "Scoreboard anzeigen"
+
+lobby-server.settingsCosmetics: "Kosmetik (VIP)"
+
+lobby-server.settingsCosmeticsVipOnly: "Nur für VIPs."
+
+lobby-server.partyGuiTitle: "Party"
+
+lobby-server.clanGuiTitle: "Clan"
+
+lobby-server.clanGuiLoading: "Lädt..."
+
+lobby-server.clanGuiClose: "Schließen"
+
+lobby-server.clanGuiEmpty: "Noch in keinem Clan - gründe einen!"
+
+lobby-server.clanGuiCreate: "Clan gründen"
+
+lobby-server.clanGuiCreatePrompt: "Name des neuen Clans in den Chat schreiben:"
+
+lobby-server.clanGuiHeader: "Clan: %CLAN%"
+
+lobby-server.clanGuiMemberCount: "%COUNT% Mitglieder"
+
+lobby-server.clanGuiRoleLeader: "★ Anführer"
+
+lobby-server.clanGuiRoleOfficer: "Offizier"
+
+lobby-server.clanGuiRoleMember: "Mitglied"
+
+lobby-server.clanGuiOnline: "Online"
+
+lobby-server.clanGuiOffline: "Offline"
+
+lobby-server.clanGuiClickToKick: "Klicken zum Rauswerfen"
+
+lobby-server.clanGuiInvite: "Spieler einladen"
+
+lobby-server.clanGuiInvitePrompt: "Name des Spielers in den Chat schreiben:"
+
+lobby-server.clanGuiLeave: "Clan verlassen"
+
+lobby-server.clanGuiDisband: "Clan auflösen"
+
+lobby-server.clanGuiLevelLine: "§6☆ Level %LEVEL%"
+
+lobby-server.clanGuiTreasuryLine: "§7Treasury: §6%COINS% Coins"
+
+lobby-server.clanGuiTreasury: "💰 Treasury"
+
+lobby-server.clanGuiWar: "⚔ Krieg erklären"
+
+lobby-server.clanGuiWarDesc: "§7Kostet %N% Treasury-Coins"
+
+lobby-server.clanGuiWarRequiresCoins: "§cBenötigt mindestens %N% Treasury-Coins"
+
+lobby-server.clanGuiComingSoon: "§7Noch nicht verfügbar - kommt bald."
+
+lobby-server.backButton: "§7Zurück"
+
+lobby-server.clanGuiWarRequiresMembers: "§cBenötigt mindestens %N% eigene Mitglieder"
+
+lobby-server.clanTreasuryTitle: "Clan-Treasury"
+
+lobby-server.clanTreasuryBalance: "§6💰 Clan-Kasse: §f%COINS% Coins"
+
+lobby-server.clanTreasuryEmpty: "§7Noch keine Transaktionen."
+
+lobby-server.clanWarsTitle: "Clan-Wars"
+
+lobby-server.clanWarsHeader: "§c⚔ Krieg erklären"
+
+lobby-server.clanWarsNoTargets: "§7Keine anderen Clans gefunden."
+
+lobby-server.clanWarsDeclareOn: "⚔ %CLAN%"
+
+lobby-server.clanWarsTargetTooSmall: "§cZiel-Clan braucht mindestens %N% Mitglieder"
+
+lobby-server.partyGuiLoading: "Lädt..."
+
+lobby-server.partyGuiClose: "Schließen"
+
+lobby-server.partyGuiEmpty: "Noch keine Party - lade jemanden ein!"
+
+lobby-server.partyGuiOnline: "Online"
+
+lobby-server.partyGuiOffline: "Offline"
+
+lobby-server.partyGuiLeaderTag: "★ Anführer"
+
+lobby-server.partyGuiClickToKick: "Klicken zum Rauswerfen"
+
+lobby-server.partyGuiClickToManage: "Klicken zum Verwalten"
+
+lobby-server.partyGuiStateOpen: "Offen"
+
+lobby-server.partyGuiStateClosed: "Geschlossen"
+
+lobby-server.partyGuiOpenToggleDesc: "§8Offen: jeder kann beitreten. Zu: nur per Einladung."
+
+lobby-server.partyGuiLimitsHint: "§7Klicken für Infos zum Mitglieder-Limit"
+
+lobby-server.partyGuiClickForLimits: "§8Klicken für Infos zum Limit"
+
+lobby-server.partyLimitsTitle: "Mitglieder-Limit"
+
+lobby-server.partyLimitsExplain1: "§7Das Limit hängt von deinem Rang ab."
+
+lobby-server.partyLimitsExplain2: "§8Höherer Rang = mehr Party-Plätze."
+
+lobby-server.partyMemberTitle: "%PLAYER% verwalten"
+
+lobby-server.partyMemberKick: "Rauswerfen"
+
+lobby-server.partyMemberKickDesc: "§8Aus der Party entfernen (kann wieder beitreten)."
+
+lobby-server.partyMemberBan: "Bannen"
+
+lobby-server.partyMemberBanDesc: "§8Dauerhaft aus dieser Party ausschließen."
+
+lobby-server.partyMemberBlock: "Blockieren"
+
+lobby-server.partyMemberBlockDesc: "§8Netzwerkweit blockieren (/block)."
+
+lobby-server.partyGuiInvite: "Spieler einladen"
+
+lobby-server.partyGuiLeave: "Party verlassen"
+
+lobby-server.partyGuiWarp: "Mitglieder zu dir holen"
+
+lobby-server.partyGuiDisband: "Party auflösen"
+
+lobby-server.partyGuiInvitePrompt: "Name des Spielers in den Chat schreiben:"
+
+lobby-server.partyGuiCreate: "Party erstellen"
+
+lobby-server.partyGuiJoin: "Party beitreten"
+
+lobby-server.partyGuiJoinPrompt: "Name des Anführers (+ optional Leerzeichen und Passwort) in den Chat schreiben:"
+
+lobby-server.partyGuiMemberCount: "Mitglieder: %COUNT%/%MAX%"
+
+lobby-server.partyGuiPrivate: "🔒 Privat (Passwort)"
+
+lobby-server.partyGuiPublic: "🔓 Offen"
+
+lobby-server.partyGuiChatToggle: "Party-Chat: %STATE%"
+
+lobby-server.partyGuiOn: "An"
+
+lobby-server.partyGuiOff: "Aus"
+
+lobby-server.partyGuiPassword: "Passwort ändern"
+
+lobby-server.partyGuiPasswordPrompt: "Neues Passwort in den Chat schreiben (oder \"clear\" zum Entfernen):"
+
+lobby-server.settingsClose: "Schließen"
+
+lobby-server.settingsActive: "✔ Aktiv"
+
+lobby-server.settingsInactive: "✘ Inaktiv"
+
+
+# ---- duels-server: Duelle (Warteschlange, Kits, Bestenliste, Elo, Herausforderungen) ----
+
+duels-server.queueTitle: "Duell-Warteschlange"
+
+duels-server.kitPickBodyChallenge: "§7Wähle das Kit für deine Herausforderung."
+
+duels-server.queueAlreadyInMatch: "Du bist schon in einem Match."
+
+duels-server.queueJoined: "§a%KIT% §7· %MODE%§7 – suche Gegner..."
+
+duels-server.queueLeft: "Queue verlassen."
+
+duels-server.queueModeNormalName: "§a§lNormal"
+
+duels-server.queueModeRankedName: "§6§lRanked"
+
+duels-server.queueModeUnrankedName: "§d§lUnranked"
+
+duels-server.queueModeNormalDesc: "§7Zufälliges 1v1, Best of 3, kein Elo."
+
+duels-server.queueModeRankedDesc: "§7Elo-Matching, Elo-Gewinn/-Verlust, Tür ohne Skip."
+
+duels-server.queueModeUnrankedDesc: "§7Elo-Matching, aber ohne Elo-Verlust."
+
+duels-server.queueModeSelected: "§a✔ Ausgewählt"
+
+duels-server.queueModeClick: "§7Klicken zum Auswählen"
+
+duels-server.queueKitSelected: "§a✔ Ausgewählt"
+
+duels-server.queueKitClick: "§7Klicken zum Auswählen"
+
+duels-server.queueKitCount: "%N% Kits"
+
+duels-server.queueStartConfirm: "§a§lStarten §7(%N% · %MODE%§7)"
+
+duels-server.queueEscHint: "§8ESC / Klick startet die Query"
+
+duels-server.queueSummary: "§7Kits: §f%N% §7· Modus: %MODE%"
+
+duels-server.queueSummaryEmpty: "§7Nichts gewählt – ESC schließt ohne Start."
+
+duels-server.kitEloLine: "§7Elo: §f%ELO% §7(%TIER%)"
+
+duels-server.eloResultWin: "+%DELTA% Elo -> %ELO% (%TIER%)"
+
+duels-server.eloResultLoss: "-%DELTA% Elo -> %ELO% (%TIER%)"
+
+duels-server.kitEditorPoolItem: "§7Klicken zum Auswählen"
+
+duels-server.kitEditorPlacedHint: "§7Klicken zum Verschieben"
+
+duels-server.kitEditorPlaceHint: "§aKlicken: Item hierher setzen"
+
+duels-server.kitEditorPrevKit: "§7Kit"
+
+duels-server.kitEditorNextKit: "§7Kit"
+
+duels-server.kitEditorSaved: "§aKit-Anordnung für %KIT% (Preset %PRESET%) gespeichert."
+
+duels-server.kitEditorTitle: "Kit-Editor: %KIT% · P%PRESET%"
+
+duels-server.kitEditorPreset: "§bPreset %N%"
+
+duels-server.kitEditorPresetActive: "§a✔ Preset %N%"
+
+duels-server.kitEditorPresetHint: "§7Klicken: dieses Preset laden"
+
+duels-server.kitEditorSelected: "ausgewählt - Zielslot klicken"
+
+duels-server.kitEditorReset: "§cAuf Standard zurücksetzen"
+
+duels-server.kitEditorDone: "§aFertig"
+
+duels-server.kitEditorDoneHint: "§7Speichert dieses Preset"
+
+duels-server.kitEditorSlotCount: "§7%N% Items im Pool"
+
+duels-server.kitEditorHotbarSlot: "Hotbar-Slot %N%"
+
+duels-server.kitEditorInvSlot: "Inventar-Slot %N%"
+
+duels-server.hotbarQuery: "§a§lQuery"
+
+duels-server.hotbarQueryDesc: "§7Warteschlange auswählen"
+
+duels-server.hotbarKitEditor: "§b§lKit Editor"
+
+duels-server.hotbarKitEditorDesc: "§7Kit-Anordnung bearbeiten"
+
+duels-server.hotbarProfile: "§b§lProfil & Stats"
+
+duels-server.hotbarProfileDesc: "§7Klicken für deine Statistik"
+
+duels-server.hotbarParty: "§b§lParty"
+
+duels-server.hotbarPartyDesc: "§7Klicken für Party-Befehle"
+
+duels-server.hotbarBack: "§c§lZurück zur Lobby"
+
+duels-server.hotbarBackDesc: "§7Klicken für den Hub"
+
+duels-server.arenasFull: "Alle Arenen sind gerade belegt - versuch's gleich noch einmal."
+
+duels-server.matchFound: "Match gefunden gegen %OPPONENT%! Best of 3."
+
+duels-server.matchWon: "Du hast das Match gewonnen!"
+
+duels-server.roundWon: "Runde gewonnen! Stand: %SCORE%"
+
+duels-server.matchLost: "Du hast das Match verloren. Stand: %SCORE%"
+
+duels-server.opponentLeft: "%PLAYER% hat das Match verlassen - du gewinnst automatisch."
+
+duels-server.leftMatch: "Match verlassen - zurück in die Duels-Lobby."
+
+duels-server.notInMatch: "Du bist gerade in keinem Match."
+
+duels-server.roundStart: "Runde %ROUND% - Tür öffnet in %SECONDS%s (Gegner hitten zum Überspringen, außer Ranked)."
+
+duels-server.fight: "Kampf!"
+
+duels-server.backButton: "§7Zurück"
+
+duels-server.kitQueueCount: "§7%COUNT% Spieler in der Warteschlange"
+
+duels-server.kitChallengeHint: "§7Klicken, um in diesem Kit herauszufordern"
+
+duels-server.challengeKitTitle: "Duell mit %PLAYER% - Kit wählen"
+
+duels-server.duelUsage: "Verwendung: /duel <Spieler>"
+
+duels-server.challengeTargetOffline: "%PLAYER% ist nicht online."
+
+duels-server.challengeTargetBusy: "%PLAYER% ist gerade beschäftigt."
+
+duels-server.challengeSent: "Herausforderung an %PLAYER% (%KIT%) verschickt."
+
+duels-server.challengeReceivedHeader: "§d%PLAYER% fordert dich zu einem %KIT%-Duell heraus!"
+
+duels-server.challengeAcceptButton: "§a[Annehmen]"
+
+duels-server.challengeDeclineButton: "§c[Ablehnen]"
+
+duels-server.challengeNoneToRespond: "Du hast gerade keine offene Herausforderung."
+
+duels-server.challengeAcceptedNotifyChallenger: "%PLAYER% hat deine Herausforderung angenommen!"
+
+duels-server.challengeDeclined: "Du hast die Herausforderung abgelehnt."
+
+duels-server.challengeDeclinedNotifyChallenger: "%PLAYER% hat deine Herausforderung abgelehnt."
+
+duels-server.challengeExpired: "Deine Herausforderung an %PLAYER% ist abgelaufen."
+
+duels-server.partyGuiTitle: "Party"
+
+duels-server.partyGuiLoading: "Lädt..."
+
+duels-server.partyGuiClose: "Schließen"
+
+duels-server.partyGuiEmpty: "Noch keine Party - lade jemanden ein!"
+
+duels-server.partyGuiOnline: "Online"
+
+duels-server.partyGuiOffline: "Offline"
+
+duels-server.partyGuiLeaderTag: "★ Anführer"
+
+duels-server.partyGuiClickToKick: "Klicken zum Rauswerfen"
+
+duels-server.partyGuiClickToManage: "Klicken zum Verwalten"
+
+duels-server.partyGuiStateOpen: "Offen"
+
+duels-server.partyGuiStateClosed: "Geschlossen"
+
+duels-server.partyGuiOpenToggleDesc: "§8Offen: jeder kann beitreten. Zu: nur per Einladung."
+
+duels-server.partyGuiLimitsHint: "§7Klicken für Infos zum Mitglieder-Limit"
+
+duels-server.partyGuiClickForLimits: "§8Klicken für Infos zum Limit"
+
+duels-server.partyLimitsTitle: "Mitglieder-Limit"
+
+duels-server.partyLimitsExplain1: "§7Das Limit hängt von deinem Rang ab."
+
+duels-server.partyLimitsExplain2: "§8Höherer Rang = mehr Party-Plätze."
+
+duels-server.partyMemberTitle: "%PLAYER% verwalten"
+
+duels-server.partyMemberKick: "Rauswerfen"
+
+duels-server.partyMemberKickDesc: "§8Aus der Party entfernen (kann wieder beitreten)."
+
+duels-server.partyMemberBan: "Bannen"
+
+duels-server.partyMemberBanDesc: "§8Dauerhaft aus dieser Party ausschließen."
+
+duels-server.partyMemberBlock: "Blockieren"
+
+duels-server.partyMemberBlockDesc: "§8Netzwerkweit blockieren (/block)."
+
+duels-server.partyGuiInvite: "Spieler einladen"
+
+duels-server.partyGuiLeave: "Party verlassen"
+
+duels-server.partyGuiWarp: "Mitglieder zu dir holen"
+
+duels-server.partyGuiDisband: "Party auflösen"
+
+duels-server.partyGuiInvitePrompt: "Name des Spielers in den Chat schreiben:"
+
+duels-server.partyGuiCreate: "Party erstellen"
+
+duels-server.partyGuiJoin: "Party beitreten"
+
+duels-server.partyGuiJoinPrompt: "Name des Anführers (+ optional Leerzeichen und Passwort) in den Chat schreiben:"
+
+duels-server.partyGuiMemberCount: "Mitglieder: %COUNT%/%MAX%"
+
+duels-server.partyGuiPrivate: "🔒 Privat (Passwort)"
+
+duels-server.partyGuiPublic: "🔓 Offen"
+
+duels-server.partyGuiChatToggle: "Party-Chat: %STATE%"
+
+duels-server.partyGuiOn: "An"
+
+duels-server.partyGuiOff: "Aus"
+
+duels-server.partyGuiPassword: "Passwort ändern"
+
+duels-server.partyGuiPasswordPrompt: "Neues Passwort in den Chat schreiben (oder \"clear\" zum Entfernen):"
+
+duels-server.partyGuiVisibility: "§7Sichtbarkeit: %VIS%"
+
+duels-server.partyGuiChatLine: "§7Party-Chat: %STATE%"
+
+duels-server.partyGuiCloseHint: "§7Menü schließen"
+
+duels-server.partyGuiEmptyHint: "§8Erstellen oder Beitreten anklicken"
+
+duels-server.partyGuiCreateDesc: "§7Gründe eine neue Party"
+
+duels-server.partyGuiJoinDesc: "§7Einer bestehenden Party beitreten"
+
+duels-server.partyGuiJoinHint: "§8Name (+ optional Passwort) im Chat"
+
+duels-server.partyGuiInviteDesc: "§7Lädt einen Spieler in die Party ein"
+
+duels-server.partyGuiPasswordInline: "Passwort (optional)"
+
+duels-server.partyGuiVersus: "⚔ Party vs Party"
+
+duels-server.partyGuiVersusDesc: "§7Deine Party gegen eine andere Party"
+
+duels-server.partyGuiVersusRequires: "§cBenötigt mindestens %N% Party-Mitglieder"
+
+duels-server.partyGuiFfa: "⚔ Party FFA"
+
+duels-server.partyGuiFfaDesc: "§7Jeder gegen jeden innerhalb der Party"
+
+duels-server.partyGuiFfaRequires: "§cBenötigt mindestens %N% Party-Mitglieder"
+
+duels-server.partyGuiComingSoon: "§7Noch nicht verfügbar - kommt bald."
+
+duels-server.partyGuiInviteHint: "§8Namen im Chat eingeben"
+
+duels-server.partyGuiChatDesc: "§7Schaltet den Party-Chat für alle um"
+
+duels-server.partyGuiLeaveDesc: "§7Du verlässt die Party"
+
+duels-server.partyGuiWarpDesc: "§7Holt alle Mitglieder zu dir"
+
+duels-server.partyGuiPasswordDesc: "§7Beitritts-Passwort setzen oder entfernen"
+
+duels-server.partyGuiPasswordHint: "§8Im Chat eingeben · \"clear\" entfernt es"
+
+duels-server.partyGuiDisbandDesc: "§7Löst die Party komplett auf"
+
+duels-server.profileTotal: "§7Matches gesamt: §f%TOTAL%"
+
+duels-server.profileWinrate: "§7Winrate: §e%WR%%"
+
+duels-server.profileBestKit: "§7Bestes Kit: §f%KIT% §8(%WINS% Siege)"
+
+duels-server.profileMainKits: "§b§lMain-Kits"
+
+duels-server.profileMainDesc: "§7Zählen mehr fürs Ranking"
+
+duels-server.profileSideKits: "§d§lSide-Kits"
+
+duels-server.profileSideDesc: "§7Nur zum Spaß"
+
+duels-server.leaderboardWinsLosses: "§7Siege: §a%WINS% §7| Niederlagen: §c%LOSSES%"
+
+duels-server.leaderboardUnknown: "§7Unbekannt (noch nicht gespielt)"
+
+duels-server.leaderboardTitle: "Bestenliste – %FILTER%"
+
+duels-server.leaderboardOverall: "Gesamt"
+
+duels-server.leaderboardEmpty: "§8Noch keine Einträge"
+
+duels-server.closeButton: "Schließen"
+
+duels-server.hotbarLeaderboard: "§b§lBestenliste"
+
+duels-server.hotbarLeaderboardDesc: "§7Klicken für die Bestenliste"
+
+duels-server.leaderboardScopeIntl: "International"
+
+duels-server.leaderboardScopeCountry: "Land: %COUNTRY%"
+
+duels-server.leaderboardHeader: "§b§lBestenliste §7– %FILTER% §8(%SCOPE%)"
+
+duels-server.leaderboardRow: "§7#%RANK% %FLAG%§f%NAME% §8— §a%WINS% §7Siege"
+
+duels-server.leaderboardRowKit: "§7#%RANK% %FLAG%§f%NAME% §8— §f%ELO% §7%TIER% §8· §a%WINS% §7S"
+
+duels-server.leaderboardYouRow: "§6§l#%RANK% %FLAG%★ %NAME% §8— §a%WINS% §7Siege"
+
+duels-server.leaderboardYouRowKit: "§6§l#%RANK% %FLAG%★ %NAME% §8— §f%ELO% §7%TIER% §8· §a%WINS% §7S"
+
+duels-server.leaderboardYouUnranked: "§8Du hast in diesem Filter noch nicht gespielt"
+
+duels-server.leaderboardRowHover: "§7Klick für %NAME%s Stats"
+
+duels-server.leaderboardSearch: "Spieler suchen"
+
+duels-server.leaderboardSearchPrompt: "Namen des Spielers eingeben:"
+
+duels-server.leaderboardSearchField: "Spieler suchen…"
+
+duels-server.leaderboardWinsWord: "Siege"
+
+duels-server.leaderboardSearchClear: "Suche zurücksetzen"
+
+duels-server.leaderboardSearchHeader: "§7Suche: §f%QUERY% §8(%COUNT% Treffer)"
+
+duels-server.leaderboardSearchNoResults: "§8Niemand mit diesem Namen gefunden"
+
+duels-server.leaderboardSearchNotFound: "§cKein Spieler \"%NAME%\" gefunden."
+
+duels-server.leaderboardKitFilter: "Kit-Filter: %KIT%"
+
+duels-server.leaderboardScopeButton: "Bereich: %SCOPE%"
+
+duels-server.leaderboardPrevPage: "« Seite %N%"
+
+duels-server.leaderboardNextPage: "Seite %N% »"
+
+duels-server.kitFilterTitle: "Kit-Filter wählen"
+
+duels-server.kitFilterAll: "§bAlle Kits"
+
+duels-server.kitFilterBody: "Kit für die Bestenliste wählen."
+
+duels-server.countryFilterTitle: "Land wählen"
+
+duels-server.countryFilterSearch: "Land suchen"
+
+duels-server.countryFilterSearchPrompt: "Ländercode (z.B. DE) oder Name eingeben:"
+
+duels-server.countryFilterNotFound: "§cKein Land \"%NAME%\" gefunden."
+
+duels-server.statsTitle: "Stats – %NAME%"
+
+duels-server.statsYou: "Du"
+
+duels-server.statsHeaderRank: "§7International §f%INTL% §8· §7%COUNTRY% §f%NAT%"
+
+duels-server.statsKitNever: "§8%KIT% – nie gespielt"
+
+duels-server.statsKitRow: "§b%KIT% §8│ §7int §f%INTL% §8│ §7%COUNTRY% §f%NAT% §8│ §7Elo §f%ELO% §7(%TIER%) §8│ §a%WINS%§7/§c%LOSSES%"
+
+duels-server.statsKitNeverShort: "§8Nie gespielt"
+
+duels-server.statsKitRankLine: "§7International §f%INTL% §8· §7%COUNTRY% §f%NAT%"
+
+duels-server.statsKitEloLine: "§7Elo §f%ELO% §7(%TIER%)"
+
+duels-server.statsKitWinsLine: "§a%WINS% Siege §7/ §c%LOSSES% Niederlagen"
+
+
+# ---- realms-server: Realms (eigene Welten, Whitelist, Code-Block-System) ----
+
+realms-server.realmUsage: "§7Nutzung: /realm <create|home|join|delete|code|whitelist>"
+
+realms-server.realmCreateUsage: "§7Nutzung: /realm create <Name> <void|flat|normal> [Seed]"
+
+realms-server.realmAlreadyHave: "§cDu hast schon eine Realm - lösche sie erst mit /realm delete."
+
+realms-server.realmCreated: "§aRealm \"%NAME%\" erstellt! Code: §f%CODE% §7- teile ihn, damit Freunde beitreten können."
+
+realms-server.realmInvalidWorldType: "§cUnbekannter Welt-Typ \"%TYPE%\" - erlaubt: void, flat, normal."
+
+realms-server.realmNoneOwned: "§cDu hast noch keine Realm - erstelle eine mit /realm create."
+
+realms-server.realmEntering: "§7Betrete Realm \"%NAME%\"..."
+
+realms-server.realmCodeNotFound: "§cKeine Realm mit dem Code \"%CODE%\" gefunden."
+
+realms-server.realmDenied: "§cDiese Realm ist geschlossen - du stehst nicht auf der Whitelist."
+
+realms-server.realmDeleted: "§aDeine Realm wurde gelöscht."
+
+realms-server.realmCode: "§7Dein Realm-Code: §f%CODE%"
+
+realms-server.realmWhitelistUsage: "§7Nutzung: /realm whitelist <add|remove|toggle> [Spieler]"
+
+realms-server.realmWhitelistAdded: "§a%PLAYER% darf jetzt deine Realm betreten."
+
+realms-server.realmWhitelistRemoved: "§a%PLAYER% von der Whitelist entfernt."
+
+realms-server.realmWhitelistToggled: "§aWhitelist ist jetzt %STATE%."
+
+realms-server.realmWhitelistOn: "an"
+
+realms-server.realmWhitelistOff: "aus"
+
+realms-server.realmPlayerNotFound: "§cSpieler nicht gefunden: %PLAYER%"
+
+realms-server.backButton: "§7Zurück"
+
+realms-server.realmCreateTitle: "Realm erstellen"
+
+realms-server.realmNamePrompt: "Name deiner Realm:"
+
+realms-server.realmTypeVoid: "Void"
+
+realms-server.realmTypeVoidDesc: "§7Komplett leer - volle Kontrolle"
+
+realms-server.realmTypeFlat: "Flat"
+
+realms-server.realmTypeFlatDesc: "§7Klassisches Superflat"
+
+realms-server.realmTypeNormal: "Normal"
+
+realms-server.realmTypeNormalDesc: "§7Hügeliges Terrain (Platzhalter, kein echtes Vanilla-Worldgen)"
+
+realms-server.realmManageTitle: "Meine Realm"
+
+realms-server.realmEnter: "Betreten"
+
+realms-server.realmEnterDesc: "§7Teleportiert dich in deine Realm"
+
+realms-server.realmWhitelistOnLabel: "Whitelist: an"
+
+realms-server.realmWhitelistOffLabel: "Whitelist: aus"
+
+realms-server.realmWhitelistToggleDesc: "§7Klicken zum Umschalten"
+
+realms-server.realmWhitelistAddButton: "Spieler hinzufügen"
+
+realms-server.realmWhitelistAddDesc: "§7Klicken, um einen Spieler einzuladen"
+
+realms-server.realmWhitelistAddPrompt: "Name des Spielers:"
+
+realms-server.realmDeleteButton: "Realm löschen"
+
+realms-server.realmDeleteDesc: "§7Klicken zum Löschen"
+
+realms-server.realmDeleteConfirm: "§c§lWirklich löschen?"
+
+realms-server.realmDeleteConfirmDesc: "§cNochmal klicken - unwiderruflich!"
+
