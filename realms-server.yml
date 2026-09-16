@@ -1,0 +1,252 @@
+# ============================================================
+# KRYVEN.net — realms-server — Übersetzungs-Vorlage
+# Server-Zweck: Realm-System (Minestom-Backend) — eigene, private Spieler-Welten
+# (Void/Flat/Normal), Whitelist/Gäste-Rechte, plus ein Code-Block-Baukasten zum
+# visuellen Programmieren einfacher Spiel-Logik.
+#
+# Jeder Eintrag: Kommentar = aktueller deutscher Text im Code (nur zur Orientierung,
+# NICHT als Vorgabe zum Abtippen gedacht) — de/en/fr darunter bitte von einem Menschen
+# ausfüllen. §-Zeichen (z.B. §a, §c, §7) sind Minecraft-Farbcodes, bitte erhalten.
+# %PLATZHALTER% (z.B. %PLAYER%, %CODE%) werden zur Laufzeit ersetzt, bitte erhalten.
+# ============================================================
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Nutzung: /realm <create|home|join|delete|code|whitelist>"
+realmUsage:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Nutzung: /realm create <Name> <void|flat|normal> [Seed]"
+realmCreateUsage:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§cDu hast schon eine Realm - lösche sie erst mit /realm delete."
+realmAlreadyHave:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§aRealm "%NAME%" erstellt! Code: §f%CODE% §7- teile ihn, damit Freunde beitreten können."
+realmCreated:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§cUnbekannter Welt-Typ "%TYPE%" - erlaubt: void, flat, normal."
+realmInvalidWorldType:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§cDu hast noch keine Realm - erstelle eine mit /realm create."
+realmNoneOwned:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Betrete Realm "%NAME%"..."
+realmEntering:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§cKeine Realm mit dem Code "%CODE%" gefunden."
+realmCodeNotFound:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§cDiese Realm ist geschlossen - du stehst nicht auf der Whitelist."
+realmDenied:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§aDeine Realm wurde gelöscht."
+realmDeleted:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Dein Realm-Code: §f%CODE%"
+realmCode:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Nutzung: /realm whitelist <add|remove|toggle> [Spieler]"
+realmWhitelistUsage:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§a%PLAYER% darf jetzt deine Realm betreten."
+realmWhitelistAdded:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§a%PLAYER% von der Whitelist entfernt."
+realmWhitelistRemoved:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§aWhitelist ist jetzt %STATE%."
+realmWhitelistToggled:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "an"
+realmWhitelistOn:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "aus"
+realmWhitelistOff:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§cSpieler nicht gefunden: %PLAYER%"
+realmPlayerNotFound:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Zurück"
+backButton:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Realm erstellen"
+realmCreateTitle:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Name deiner Realm:"
+realmNamePrompt:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Void"
+realmTypeVoid:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Komplett leer - volle Kontrolle"
+realmTypeVoidDesc:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Flat"
+realmTypeFlat:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Klassisches Superflat"
+realmTypeFlatDesc:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Normal"
+realmTypeNormal:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Hügeliges Terrain (Platzhalter, kein echtes Vanilla-Worldgen)"
+realmTypeNormalDesc:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Meine Realm"
+realmManageTitle:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Betreten"
+realmEnter:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Teleportiert dich in deine Realm"
+realmEnterDesc:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Whitelist: an"
+realmWhitelistOnLabel:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Whitelist: aus"
+realmWhitelistOffLabel:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Klicken zum Umschalten"
+realmWhitelistToggleDesc:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Spieler hinzufügen"
+realmWhitelistAddButton:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Klicken, um einen Spieler einzuladen"
+realmWhitelistAddDesc:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Name des Spielers:"
+realmWhitelistAddPrompt:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "Realm löschen"
+realmDeleteButton:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§7Klicken zum Löschen"
+realmDeleteDesc:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§c§lWirklich löschen?"
+realmDeleteConfirm:
+  de: ""
+  en: ""
+  fr: ""
+
+# DE (aktuell im Code, nur zur Orientierung): "§cNochmal klicken - unwiderruflich!"
+realmDeleteConfirmDesc:
+  de: ""
+  en: ""
+  fr: ""
+
